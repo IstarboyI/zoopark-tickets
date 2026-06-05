@@ -1,0 +1,147 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 20px;
+    color: #1b5e20;
+}
+
+.menu {
+    text-align: center;
+    background-color: #2e7d32;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #ffb74d;
+    color: #1b5e20;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin: 8px;
+    display: inline-block;
+    border-radius: 40px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff9800;
+    transform: scale(1.07);
+    color: white;
+}
+
+.content {
+    background-color: #ffffffcc;
+    padding: 25px;
+    border-radius: 35px;
+    max-width: 1100px;
+    margin: auto;
+    backdrop-filter: blur(2px);
+}
+
+h1, h2 {
+    color: #1b5e20;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 25px;
+    margin: 15px 0;
+}
+
+table.pricelist {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff3e0;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #c8e6c9;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2e7d32;
+    color: white;
+}
+
+ul, .contact-info {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 25px;
+    line-height: 1.6;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.gallery img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    border: 3px solid #ffb74d;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 25px;
+    width: 90%;
+    max-width: 560px;
+}
+
+input {
+    padding: 12px;
+    width: 80%;
+    max-width: 350px;
+    border-radius: 40px;
+    border: 1px solid #a5d6a7;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1b5e20;
+    transform: scale(1.02);
+}
+
+@media (max-width: 700px) {
+    .button {
+        padding: 8px 15px;
+        margin: 4px;
+    }
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+}
